@@ -11,4 +11,4 @@ def inicio(request):
     ctx={
         "user_dict": usuario
     }
-    return render (request, template_name, ctx)
+    return render (request, templete_name, ctx)

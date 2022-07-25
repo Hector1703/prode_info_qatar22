@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'prode.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'prode_info',
+        'NAME': 'prode2',
         'USER': 'postgres',
-        'PASSWORD': 'postgres',
-        'HOST': 'localhost',
+        'PASSWORD': '1703',
+        'HOST' : 'localhost',
         'PORT': '5432',
     }
 }
